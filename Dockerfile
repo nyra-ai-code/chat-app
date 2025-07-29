@@ -11,3 +11,6 @@ WORKDIR /var/www/html
 
 # Give proper permissions (optional)
 RUN chown -R www-data:www-data /var/www/html
+
+# Expose default web port
+EXPOSE 80
